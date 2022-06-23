@@ -9,7 +9,7 @@ import { AccountContext } from '../context.js'
 import { ownerAddress } from '../config'
 import 'easymde/dist/easymde.min.css'
 
-export default function App({ component, pageProps}) {
+export default function App({ Component, pageProps}) {
   const [ account, setAccount] = useState(null)
   async function getWeb3Modal() {
   const web3Modal = new Web3Modal({
@@ -88,7 +88,7 @@ return (
         </AccountContext.Provider>
       </div>
     </div>
-  </div>
+
 )
 }
 const accountInfo = css`
