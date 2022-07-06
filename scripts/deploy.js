@@ -4,7 +4,7 @@ const fs = require("fs");
 async function main() {
 
    const Blog = await hre.ethers.getContractFactory("Blog");
-  const blog = await Blog.deploy("My blog");
+  const blog = await Blog.deploy("My web3 blog");
 
   await blog.deployed();
 

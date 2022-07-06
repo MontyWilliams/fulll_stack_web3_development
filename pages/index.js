@@ -13,7 +13,7 @@ export default function Home(props) {
 
   const router = useRouter()
   async function navigate() {
-    router.push('/create-post')
+    router.push('/createPost')
   }
 
   return (
@@ -72,7 +72,7 @@ export async function getServerSideProps() {
 
   const contract = new ethers.Contract(contractAddress, Blog.abi, provider)
   const data = await contract.fetchPosts()
-  return {   // reches into the contract and gets the posts the graph manifest should make this fast!!
+  return {      // reches into the contract and gets the posts the graph manifest should make this fast!!
     props: {
       posts: JSON.parse(JSON.stringify(data))
     }

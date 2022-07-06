@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #0070f3;
 }
 
 .footer {
@@ -113,4 +114,73 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.accountInfo {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+.container {
+  padding: 40px;
+}
+
+.linkContainer {
+  padding: 30px 60px;
+  background-color: #fafafa;
+}
+
+.nav {
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, .075);
+  padding: 20px 30px;
+}
+
+.description{
+  margin: 0;
+  color: #999999;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.title {
+  margin-left: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.buttonStyle {
+  background-color: #fafafa;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 16px 70px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 7px 7px rgba(0, 0, 0, .1);
+}
+
+.link {
+  margin: 0px 40px 0px 0px;
+  font-size: 16px;
+  font-weight: 400;
+
 }
