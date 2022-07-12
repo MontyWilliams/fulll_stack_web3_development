@@ -49,7 +49,7 @@ function App({ Component, pageProps }) {
           <Link href="/">
             <a>
               <img
-                src='/logo.svg'
+                src='/918dcx_logo.png'
                 alt="React Logo"
                 style={{ width: '50px' }}
               />
@@ -84,7 +84,7 @@ function App({ Component, pageProps }) {
             /* if the signed in user is the contract owner, we */
             /* show the nav link to create a new post */
             (account === ownerAddress) && (
-              <Link href="/create-post">
+              <Link href="/createPost">
                 <a className={link}>
                   Create Post
                 </a>
@@ -120,7 +120,8 @@ const linkContainer = css`
 `
 
 const nav = css`
-  background-color: white;
+  
+  background-color: #fafafa   ;
 `
 
 const header = css`
