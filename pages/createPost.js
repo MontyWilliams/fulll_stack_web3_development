@@ -6,9 +6,7 @@ import { ethers } from 'ethers'
 import { create } from 'ipfs-http-client'
 
 /* import contract address and contract owner address */
-import {
-  contractAddress
-} from '../config'
+import { contractAddress } from '../config'
 
 import Blog from '../artifacts/contracts/Blog.sol/Blog.json'
 
